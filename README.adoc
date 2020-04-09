@@ -259,3 +259,8 @@ for Gradle.
 Tigergraph.
 <4> The path to the source script relative to `scriptDir`.
 <5> Informs the plugin which credentials to use.
+
+== Tips and Tricks
+Most users perfer the quiet version of GSQL.  If you add the following to your .bash_profile or other shell startup you can drop into the GSQL shell with just by typing "gsql" into the terminal while you are in the project directory.
+
+   ```alias gsql='gradle --console=plain gsqlShell'```
